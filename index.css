@@ -1,0 +1,194 @@
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.195)!important;
+}
+.logo{
+    /* background-color: white; */
+    display: flex !important;
+    justify-content: center !important;
+    height: 15vh;
+}
+.logo img{
+    width: 10%;
+    height: 15vh;
+}
+nav a{
+    color: white !important;
+   font-weight: bold !important;
+}
+.nav-text li a{
+    background-color: rgba(255, 0, 0, 0.319);
+    margin-left: 5px;
+    height: 70% !important;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+header .bg{
+    width: 100%;
+    height: 100vh;
+    background-color: azure;
+    background-image: url(/images/brost-bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+header img{
+    position: absolute;
+   
+    
+}
+.brost1{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    height: 40%;
+    z-index: 2;
+}
+.brost2{
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    height: 40%;
+    z-index: 1;
+}
+.brost3{
+    position: absolute;
+    top: 43%;
+    left: 13%;
+    height: 40%;
+    z-index: 3;
+}
+header h1{
+    color: white;
+    position: relative;
+    left: 60%;
+    top: 105px;
+    font-size: 50px;  
+    
+}
+header h1 span{
+    
+    color: rgb(209, 203, 29);
+}
+header p{
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 8%;
+   
+}
+header span{
+    color: yellow;
+}
+header button{
+    background-color: rgba(255, 255, 0, 0.373) !important;
+    position: relative;
+    top: 238px;
+    left: 8%;
+    border: none !important;
+   
+}
+.arrow{
+    width: 22%;
+    height: 15% !important;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.boy{
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    height: 30% !important;
+}
+section{
+    width: 100%;
+    height: 70vh;
+        background-color:black;
+    position: relative;
+    top: 41vh;
+    overflow: hidden;
+}
+video{
+    width: 100%;
+    height: 70vh;
+    object-fit: contain;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0%;
+    /* z-index: -1; */
+    
+}
+.sec2{
+    width: 80%;
+    height: 80vh;
+   display: grid;
+   grid-template-columns:repeat(3,1fr);
+    grid-gap: 20px; 
+   margin: auto;
+   margin-top: 30%;
+}
+.sec2 >div{
+    width: 85%;
+    height: 100%;
+    border: 1px solid black;
+}
+.img{
+    width: 100%;
+    height: 80%;
+    
+   
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.img-desc{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+footer{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    top: 41vh;
+    background-color: rgba(10, 10, 9, 0.993);
+}
+footer > ul{
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 30%;
+    list-style: none;
+    font-size: large;
+}
+footer ul li{
+    list-style: none;
+    color: white;
+  
+}
+footer img{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 10%;
+}
+footer li img{
+    width: 100%;
+    position: relative;
+    left: 80%;
+}
